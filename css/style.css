@@ -127,6 +127,7 @@ button:hover {
 }
 
 .attribution a:hover {
-  color: var(--dark-cyan);
+  color: var(--cream);
   cursor: pointer;
+  box-shadow: 20px 20px var(--dark-cyan) inset;
 }
