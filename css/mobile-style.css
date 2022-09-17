@@ -25,6 +25,14 @@ body::-webkit-scrollbar {
   padding: 0px;
 }
 
+#desktop-image {
+  display: none;
+}
+
+br {
+  display: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -42,7 +50,7 @@ body {
   background-color: var(--white);
 }
 
-#product-photo {
+#mobile-image {
   width: 22em;
   height: 14em;
   border-top-left-radius: 15px;
@@ -119,5 +127,10 @@ button:hover {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-grayish-blue);
+}
+
+.attribution a:hover {
+  color: var(--dark-cyan);
+  cursor: pointer;
 }
