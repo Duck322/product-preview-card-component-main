@@ -4,11 +4,6 @@
 /*icons*/
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
-@media screen and (max-width: 600px) {
-  .container {
-      display: none;
-  }
-
 :root {
   /*primary*/
   --dark-cyan: #3c8067;
@@ -39,9 +34,9 @@ body {
 
 #container {
   display: flex;
-  flex-direction: row;
-  width: 37em;
-  height: 27em;
+  flex-direction: column;
+  width: 22em;
+  height: 40em;
   margin: 8em;
   border-radius: 15px;
   background-color: var(--white);
@@ -49,9 +44,9 @@ body {
 
 #product-photo {
   width: 22em;
-  height: 27em;
+  height: 14em;
   border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 #description {
@@ -96,8 +91,8 @@ button {
   color: var(--white);
   border: none;
   padding: 0.5em;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 5em;
+  padding-right: 5em;
   padding-bottom: 1em;
   border-radius: 10px;
   font-family: "Montserrat";
