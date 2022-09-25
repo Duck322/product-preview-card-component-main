@@ -123,6 +123,7 @@ button:hover {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-bottom: 1.25rem;
 }
 .attribution a {
   color: var(--dark-grayish-blue);
